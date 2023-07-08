@@ -54,16 +54,42 @@ a {
 /* header related sytles */
 .header {
   background-color: #fff8f3;
-  padding: 0px 50px;
+  background-image: url(../images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
 
 .banner {
   padding: 30px 30px 30px 150px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .profile_picture {
   width: 584px;
   height: 676px;
+}
+
+.banner-greeting {
+  font-size: 45px;
+  color: #474747;
+  margin-bottom: 0;
+}
+
+.banner-title {
+  font-size: 85px;
+  font-style: normal;
+  font-weight: 700;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+.header_intro {
+  margin-top: 5px;
+  display: flex;
+  width: 585px;
+  color: var(--dark-03, #757575);
+  font-size: 18px;
+  font-weight: 400;
 }
